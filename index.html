@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+WRITTEN BY: Eden Radulescu
+EMAIL: eradules@uci.edu
+-->
+
+<head>
+
+  <script src="script.js" defer></script>
+  <script src="sparkles.js" defer></script>
+  <script src="flowing-background.js" defer></script>
+  <script src="floating-balls.js" defer></script>
+
+
+  <meta charset="utf-8">
+  <meta name="author" content="Your name here">
+  <meta name="description" content="description of your page">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- you would link to an external stylesheet here! -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- you would also link to Bootstrap here! -->
+  <title>Eden Radulescu's Portfolio</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+   <nav>
+    <div class="left">
+      <a href="/">Eden Radulescu</a>
+    </div>
+
+    <div class="right">
+      <a href="http://github.com" target="_blank" rel="nooperner noreferrer">
+        <strong class="fa-brands fa-github"></strong>
+        <span>Github</span>
+      </a>
+      
+      <a href="http://www.linkedin.com/in/eden-radulescu" target="_blank" rel="nooperner noreferrer">
+        <strong class="fa-brands fa-linkedin"></strong>
+        <span>Linkedin</span>
+      </a>
+
+      <a href="mailto:eradules@uci.edu" >
+        <strong class="fa-solid fa-envelope"></strong>
+        <span>Email</span>
+      </a>
+
+    </div>
+   </nav>
+
+  <main>
+    <!-- SECTION 1: Intro -->
+     <section class="hero-section">
+
+      <div class="headshot">
+        <!-- ADD MY OWN PHOTO -->
+        <img src="eden_headshot.png" alt="Eden Radulescu headshot">
+      </div>
+
+
+      <div class="text">
+        <h2>Hi, I'm Eden!</h2>
+        <p> I am a third year student at the University of California - Irvine double majoring in Software Engineering 
+          and Psychological Science. With a passion for understanding human behavior and leveraging technology to solve 
+          real-world problems, I want to find ways to bridge the gap between cognitive science and innovative software development.
+          I thrives on collaborative projects, where my unique interdisciplinary perspective adds value to creating impactful and 
+          empathetic solutions.
+        </p>
+        
+        <div class="links">
+          <a href="#skills">
+            <strong class="fa-solid fa-code"></strong>
+            <span>Skills</span>
+          </a>
+
+          <a href="#projects">
+            <strong class="fa-solid fa-pen"></strong>
+            <span>Projects</span>
+          </a>
+
+          <a href="#contact">
+            <strong class="fa-solid fa-envelope"></strong>
+            <span>Contact</span>
+          </a>
+
+        </div>
+      </div>
+
+     </section>
+    
+     <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+      <h2>Skills</h2>
+      <div class="text">
+        Throughout my time in university, I have worked and developed my skills with many different programming languges.
+        Below are some that I am most familiar with. 
+      </div>
+
+      <div class="cells">
+        <div class="cell">
+          <img src="html_logo.png" alt="html logo">
+          <span>HTML</span>
+        </div>
+
+        <div class="cell">
+          <img src="css_logo.png" alt="css logo">
+          <span>CSS</span>
+        </div>
+        
+        <!-- CHANGE SKILLS -->
+        <div class="cell">
+          <img src="java_logo.png" alt="java logo">
+          <span>Java</span>
+        </div>
+
+        <div class="cell">
+          <img src="python_logo.png" alt="python logo">
+          <span>Python</span>
+        </div>
+
+        <div class="cell">
+          <img src="c++_logo.png" alt="c++ logo">
+          <span>C++</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects" class="projects-section">
+      <h2>Projects</h2>
+
+      <div class="group">
+        <div class="project-details">
+          <img src="proejct_photo.png" alt="SimpleDocs document layout screenshot">
+          <p>SimpleDocs!</p>
+          <p>This is a screenshot of the SimpleDocs layout when a child is creating
+            a document and collaborating with other students.
+          </p>
+        </div>
+        
+        <div class="project-text">
+          SimpleDocs! is a project I worked on that is aimed at young children who, for their schoolwork, must work 
+          together on documents but for whom the full functionality of Google Docs is too complicated. In this project,
+          I worked with a group of students to create the high fidelity mockups of the application and discuss how it could 
+          be implemented in practice if we decided to go further with the project. 
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Want to leave me a message or just chat? Here is a contact sheet that you can use to get a hold
+          of me for any inquiries or opportunities! 🩷
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email">
+
+          <label for="message">Message</label>
+          <textarea id="message" cols="30" rows="10"></textarea>
+          
+          <button type="submit">Send Message</button>
+
+        </form>
+      </div>
+    </section>
+    
+  </main>
+
+</body>
+
+</html>
